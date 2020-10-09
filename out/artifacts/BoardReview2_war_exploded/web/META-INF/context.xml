@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource
+            auth="Container"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/boardreview?allowPublicKeyRetrieval=true&amp;useSSL=false"
+            username="root"
+            password="1234"
+            name="jdbc/mysqlDB"
+            type="javax.sql.DataSource"
+            maxActive="100"
+            maxWait="10000"
+            maxIdle="100"
+            maxThread="100"
+    />
+</Context>
